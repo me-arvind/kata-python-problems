@@ -11,11 +11,11 @@ def iq_test(string):
       odd = odd + 1
       
   if (odd>even):
-    for i range(0,len(0,numbers)):
+    for i in range(0,len(numbers)):
       if (int(numbers[i]%2) == 0):
         pos = i+1
   else:
-    for i range(0, len(0,numbers)):
+    for i in range(0, len(numbers)):
       if (int(numbers[i]%2 != 0)):
         pos = i+1
   return pos      
